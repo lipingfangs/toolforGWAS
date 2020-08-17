@@ -18,7 +18,7 @@ outfile2 = open(goout2,"w")
 lines = list(file.readlines())
 
 
-for i in lines[2:]:
+for i in lines[1:]:
     i = i.split()
     print(i[0]+"	"+i[3],file = outfile1)
     
